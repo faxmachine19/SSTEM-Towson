@@ -1,0 +1,92 @@
+----- t-tests for neighborhoods -----
+
+For epsilon = 0.15
+
+--- all students ---
+
+	Welch Two Sample t-test
+
+data:  unlist(gpas_int) and unlist(gpas_nbhd)
+t = 4.8546, df = 43.31, p-value = 1.605e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.2334471 0.5651212
+sample estimates:
+mean of x mean of y 
+ 3.237500  2.838216 
+
+
+
+--- eligible students ---
+
+	Welch Two Sample t-test
+
+data:  unlist(gpas_int) and unlist(gpas_nbhd)
+t = 0.86725, df = 42.347, p-value = 0.3907
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.1203591  0.3018388
+sample estimates:
+mean of x mean of y 
+  3.23750   3.14676 
+
+
+
+--- math students ---
+
+	Welch Two Sample t-test
+
+data:  unlist(gpas_int) and unlist(gpas_nbhd)
+t = 3.4293, df = 44.332, p-value = 0.001319
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.1448233 0.5574551
+sample estimates:
+mean of x mean of y 
+ 3.237500  2.886361 
+
+
+
+--- adjusted, all students ---
+
+	Welch Two Sample t-test
+
+data:  unlist(gpas_int) and unlist(gpas_nbhd)
+t = 4.9493, df = 44.49, p-value = 1.114e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.2479054 0.5883019
+sample estimates:
+mean of x mean of y 
+ 3.237500  2.819396 
+
+
+
+--- adjusted, eligible ---
+
+	Welch Two Sample t-test
+
+data:  unlist(gpas_int) and unlist(gpas_nbhd)
+t = 0.52213, df = 44.859, p-value = 0.6041
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.1320934  0.2245374
+sample estimates:
+mean of x mean of y 
+ 3.237500  3.191278 
+
+
+
+--- adjusted, math ---
+
+	Welch Two Sample t-test
+
+data:  unlist(gpas_int) and unlist(gpas_nbhd)
+t = 3.7749, df = 45.663, p-value = 0.0004602
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.1554055 0.5106222
+sample estimates:
+mean of x mean of y 
+ 3.237500  2.904486 
+
